@@ -7,28 +7,10 @@
 //Teste larissa
 
 int main() {
-    char carta01_estado;
-    char carta01_codigo[10];
-    char carta01_nome[50];
-    char carta02_estado;
-    char carta02_codigo[10];
-    char carta02_nome[50];
-    int carta01_turistico;
-    int carta02_turistico;
-    unsigned long int carta01_populacao;
-    unsigned long int carta02_populacao;
-    float carta01_area;        
-    float carta01_densidade;
-    float carta01_densidade_invert;
-    float carta01_pib;
-    float carta01_PIBcapita;
-    float carta01_super;
-    float carta02_area;
-    float carta02_densidade;
-    float carta02_densidade_invert;
-    float carta02_pib;
-    float carta02_PIBcapita;
-    float carta02_super;
+    char carta01_estado, carta01_codigo[10], carta01_nome[50], carta02_estado, carta02_codigo[10], carta02_nome[50];
+    int carta01_turistico, carta02_turistico;
+    unsigned long int carta01_populacao, carta02_populacao;
+    float carta01_area, carta01_densidade, carta01_densidade_invert, carta01_pib,carta01_PIBcapita, carta01_super, carta02_area, carta02_densidade, carta02_densidade_invert, carta02_pib, carta02_PIBcapita, carta02_super;
     
    
     printf("Cadastre a primeira carta\n\n");
