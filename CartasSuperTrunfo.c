@@ -11,7 +11,6 @@ int main() {
     int carta01_turistico, carta02_turistico;
     unsigned long int carta01_populacao, carta02_populacao;
     float carta01_area, carta01_densidade, carta01_densidade_invert, carta01_pib,carta01_PIBcapita, carta01_super, carta02_area, carta02_densidade, carta02_densidade_invert, carta02_pib, carta02_PIBcapita, carta02_super;
-    
    
     printf("Cadastre a primeira carta\n\n");
 
