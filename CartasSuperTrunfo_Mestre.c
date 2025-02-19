@@ -35,7 +35,7 @@ int main() {
             scanf(" %f", &carta01_area);
         getchar();
 
-        printf("Digite o PIB da cidade em milhões: ");
+        printf("Digite o PIB da cidade EM MILHÕES: ");
             scanf(" %f", &carta01_pib);
         getchar();
 
@@ -87,7 +87,7 @@ int main() {
             scanf(" %f", &carta02_area);
         getchar();
 
-        printf("Digite o PIB da cidade em reais: ");
+        printf("Digite o PIB da cidade EM MILHÕES: ");
             scanf(" %f", &carta02_pib);
         getchar();
 
@@ -125,9 +125,9 @@ int main() {
 
     printf("%s    X    %s \n", carta01_nome, carta02_nome);
         printf("\n");
-        printf("POPULAÇÃO: %s  %lu  | %s  %lu     | RESULTADO: %d\n", carta01_nome, carta01_populacao, carta02_nome, carta02_populacao, carta01_populacao>carta02_populacao); 
-        printf("ÁREA: %s  %.2f  | %s  %.2f     | RESULTADO: %d\n", carta01_nome, carta01_area, carta02_nome, carta02_area, carta01_area>carta02_area);
-        printf("DENSIDADE POPULACIONAL: %s  %.2f  | %s  %.2f     | RESULTADO: %d\n", carta01_nome, carta01_densidade, carta02_nome, carta02_densidade, carta01_densidade_invert>carta02_densidade_invert);
+        printf("POPULAÇÃO: %s  %lu km²  | %s  %lu km²   | RESULTADO: %d\n", carta01_nome, carta01_populacao, carta02_nome, carta02_populacao, carta01_populacao>carta02_populacao); 
+        printf("ÁREA: %s  %.2f km² | %s  %.2f  km²   | RESULTADO: %d\n", carta01_nome, carta01_area, carta02_nome, carta02_area, carta01_area>carta02_area);
+        printf("DENSIDADE POPULACIONAL: %s  %.2f pessoas/km²  | %s  %.2f pessoas/km²    | RESULTADO: %d\n", carta01_nome, carta01_densidade, carta02_nome, carta02_densidade, carta01_densidade_invert>carta02_densidade_invert);
         printf("PIB: %s  %.2f bilhões de reais  | %s  %.2f bilhões de reais    | RESULTADO: %d\n", carta01_nome, carta01_pib, carta02_nome, carta02_pib, carta01_pib>carta02_pib);
         printf("PIB PER CAPITA: %s  %.2f reais  | %s  %.2f reais    | RESULTADO: %d\n", carta01_nome, carta01_PIBcapita, carta02_nome, carta02_PIBcapita, carta01_PIBcapita>carta02_PIBcapita);
         printf("PONTOS TURÍSTICOS: %s  %d  | %s  %d    | RESULTADO: %d\n", carta01_nome, carta01_turistico, carta02_nome, carta02_turistico, carta01_turistico>carta02_turistico);
