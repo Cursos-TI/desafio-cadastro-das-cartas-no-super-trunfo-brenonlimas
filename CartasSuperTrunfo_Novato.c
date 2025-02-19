@@ -32,7 +32,7 @@ int main() {
             scanf(" %f", &carta01_area);
         getchar();
 
-        printf("Digite o PIB da cidade: ");
+        printf("Digite o PIB da cidade em bilhões: ");
             scanf(" %f", &carta01_pib);
         getchar();
 
@@ -74,7 +74,7 @@ int main() {
             scanf("%f", &carta02_area);
         getchar();
 
-        printf("Digite o PIB da cidade: ");
+        printf("Digite o PIB da cidade em bilhões: ");
             scanf("%f", &carta02_pib);
         getchar();
 
@@ -91,7 +91,7 @@ int main() {
         printf("Nome da cidade: %s\n", carta02_nome);
         printf("População: %d\n", carta02_populacao);
         printf("Área: %.2f km²\n", carta02_area);
-        printf("PIB: %.2f\n", carta02_pib);
+        printf("PIB: %.2f\n bilhões de reais", carta02_pib);
     printf("Número de pontos turísticos: %d\n", carta02_turistico);
 
 
