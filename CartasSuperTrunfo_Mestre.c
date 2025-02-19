@@ -35,7 +35,7 @@ int main() {
             scanf(" %f", &carta01_area);
         getchar();
 
-        printf("Digite o PIB da cidade em reais: ");
+        printf("Digite o PIB da cidade em milhões: ");
             scanf(" %f", &carta01_pib);
         getchar();
 
